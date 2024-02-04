@@ -34,4 +34,4 @@ We demonstrate that PriDe achieves interpretable and transferable debiasing with
 
 See `code` for the experimental code for reproducing our experimental results.
 
-We also release the experimental results on HuggingFace: https://huggingface.co/datasets/chujiezheng/LLM-MCQ-Bias
+We also release the experimental results in another repo: https://github.com/chujiezheng/LLM-MCQ-Bias_data
