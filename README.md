@@ -18,7 +18,7 @@ If you find this repository useful or our work is related to your research, plea
 
 Multiple choice questions (MCQs) serve as a common yet important task format in the evaluation of large language models (LLMs). This work shows that modern LLMs are vulnerable to option position changes in MCQs due to their inherent "**selection bias**", namely, they prefer to **select specific option IDs as answers** (like "Option A"). As a result, modern LLMs are **vulnerable to option position changes in MCQs**, as shown below:
 
-<img src="README.assets/answer_moving.png" alt="answer_moving" style="zoom: 40%;" />
+<img src="README.assets/answer_moving.png" alt="answer_moving" style="zoom: 35%;" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 Through extensive empirical analyses with 20 LLMs on three benchmarks, we pinpoint that this behavioral bias primarily stems from LLMs' **token bias**, where the model **a priori assigns more probabilistic mass to specific option ID tokens** (e.g., A/B/C/D) when predicting answers from the option IDs. In contrast, selection bias arises **less from LLMs’ position bias**, where they are deemed to favor options presented at specific ordering positions (like first or last).
 
@@ -26,9 +26,9 @@ To mitigate selection bias, we propose a label-free, inference-time debiasing me
 
 We demonstrate that PriDe achieves interpretable and transferable debiasing with high computational efficiency.
 
-<img src="README.assets/debiasing.png" alt="debiasing" style="zoom:40%;" />
+<img src="README.assets/debiasing.png" alt="debiasing" style="zoom:35%;" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-<img src="README.assets/transfer.png" alt="transfer" style="zoom:40%;" />
+<img src="README.assets/transfer.png" alt="transfer" style="zoom:35%;" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ## Code and Data
 
