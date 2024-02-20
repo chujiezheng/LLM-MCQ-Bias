@@ -26,9 +26,9 @@ To mitigate selection bias, we propose a label-free, inference-time debiasing me
 
 We demonstrate that PriDe achieves interpretable and transferable debiasing with high computational efficiency.
 
-<img src="README.assets/debiasing.png" alt="debiasing" style="zoom:35%;" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="README.assets/debiasing.png" alt="debiasing" style="zoom:30%;" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-<img src="README.assets/transfer.png" alt="transfer" style="zoom:35%;" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="README.assets/transfer.png" alt="transfer" style="zoom:30%;" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ## Code and Data
 
