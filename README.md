@@ -1,5 +1,5 @@
 # LLM-MCQ-Bias
-Official repository for our ICLR 2024 paper "[Large Language Models Are Not Robust Multiple Choice Selectors](https://arxiv.org/abs/2309.03882)"
+Official repository for our ICLR 2024 Spotlight paper "[Large Language Models Are Not Robust Multiple Choice Selectors](https://arxiv.org/abs/2309.03882)"
 
 If you find this repository useful or our work is related to your research, please kindly cite it:
 
